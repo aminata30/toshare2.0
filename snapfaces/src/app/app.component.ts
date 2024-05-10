@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { interval } from 'rxjs';
+import { interval,Observable } from 'rxjs';
 
 
 @Component({
@@ -8,11 +8,11 @@ import { interval } from 'rxjs';
   styleUrl: './app.component.scss'
 })
 export class AppComponent implements OnInit{
+
+  interval$!: Observable<number>
+
   ngOnInit(){
-    const interval$ = interval(1000);
-    
-    interval$.subscribe(value => console.log(value))
-    setTimeout(() =>interval$.subscribe(value => console.log(value)), 3000); 
+     this.interval$ = interval(1000);
   }
 }
 
