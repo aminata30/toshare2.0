@@ -1,0 +1,20 @@
+header{
+    text-align: center;
+    color: #58360D;
+    background-color: #DCB48A ;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+a {
+    margin: 0 10px;
+    color: #58360D;
+    text-decoration: none;
+    
+    &:hover {
+        text-decoration: underline ;
+    }
+}
+.active {
+    color: #332514;
+    text-decoration: underline #58360D;
+}

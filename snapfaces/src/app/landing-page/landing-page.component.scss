@@ -1,0 +1,27 @@
+
+.landing-block{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.landing-links{
+    width: 100%;
+    text-align: center;
+}
+a {
+    margin: 0 10px;
+    color: #58360D;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline #58360D;
+    }
+}
+button {
+    font-size: 20px;
+}

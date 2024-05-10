@@ -1,0 +1,30 @@
+.asnap-card {
+  box-sizing: border-box;
+  width: 50%;
+  margin: 20px auto;
+  padding: 10px 30px;
+  box-shadow:  #ECE2D0 4px 4px 20px;
+  border: 2px solid #6D410C;
+  border-radius: 10px;
+  img {
+    width: 100%;
+  }
+  h2 {
+    margin-bottom: 0;
+  }
+  p {
+    font-weight: 300;
+    font-size: 16px;
+  }
+  }
+  .snapped{
+    background-color: #B0977E;
+    color:#6D410C;
+    button{
+      box-shadow: #6D410C 1px 1px 7px;
+      color: #6D410C;
+      &:active{
+        box-shadow: #6D410C 0 0 5px;
+      }
+    }
+}

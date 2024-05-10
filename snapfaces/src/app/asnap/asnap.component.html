@@ -1,0 +1,5 @@
+<div class="asnap-card" [ngClass]="{snapped: buttonText === 'Oops, unSnap !'}">
+    <h2>{{aSnap.title | uppercase}}</h2>
+    <p>{{aSnap.description | titlecase}}</p>
+    <button (click)="onViewASnap()">En savoir +</button>
+</div>
